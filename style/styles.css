@@ -1,0 +1,15 @@
+body {
+    font-family: 'Coming Soon', cursive;
+    text-align: center;
+}
+
+.on {
+    color: black;
+    background-color: wheat;
+}
+
+.off {
+    color: white;
+    background-color: black;
+}
+
