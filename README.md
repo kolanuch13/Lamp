@@ -1,2 +1,1 @@
-# Lamp
- This is lamp
+This is lamp
