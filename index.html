@@ -4,38 +4,33 @@
         <meta charset="utf-8"/>
         <title>The lamp</title>
         <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet"/>
-        <link href="./css/styles.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="./css/main.css">
     </head>
     <body class="on">
+        <div class="background">
         <header>
-            <h1>Lamp is on</h1>
+            
+                <h1 class="text-title">Lamp is on</h1>
+
         </header>
         <main>
             <section>
-                <h2>Turn off the lamp.</h2>
-                <a href="./off.html">
+                <h2 class="text-lamp">Turn off the lamp.</h2>
+                <button type="button" class="lamp" id="on">
                     <img 
+                    class="lamp-image"
                     src="./img/on.png"
                     alt="The lamp"
                     with="150"/>
-                </a>
+                </button>
             </section>
-            <section>
-                <h2>Type of lamps</h2>
-                <div class="video">
-                    <video  controls
-                            class="video_item" 
-                            src="./videos/IMG_3453.mp4"
-                            ></video>
-                    <video  controls 
-                            class="video_item" 
-                            src="./videos/IMG_3454.mp4"
-                            ></video>
-                </div>
-            </section>
+            
         </main>
         <footer>
-            <h2>It`s light here ^_^</h2>
+            <h2 class="text-descript">It`s light here ^_^</h2>
         </footer>
+        </div>
+        <script src="./js/index.js" type="module"></script>
     </body>
 </html>
+

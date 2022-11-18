@@ -1,0 +1,17 @@
+body {
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+}
+
+
+
+.lamp {
+  background: none;
+  border: none;
+  padding: 0px;
+}
+
+.lamp:hover,
+.lamp:focus {
+  transform: scale(1.2);
+}
